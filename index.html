@@ -4,11 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wilfred Eiron Araga - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development website for Wilfred Eiron Araga in https://github.com/wilfredaraga/wdd230">
+    <meta name="author" content="Wilfred Eiron Araga">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
-    <h1>test page</h1>
+    <header>
+        <img src="images/profile.jpg" alt="Wilfred Eiron Araga Profile" width="80" height="100">
+        <span>Wilfred Eiron Araga</span>
+    </header>
+    <nav>
+        <a href="" class="active">Home</a>
+        <a href="">Chamber</a>
+        <a href="">Site Plan</a>
+        <a href="">Form</a>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li><a href=""></a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <p>Weather</p>
+            <p>Number of Visits</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> &bull; Wilfred Eiron Araga &bull; Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
