@@ -52,7 +52,9 @@ section {
 
 #scenarios,
 #typography,
-#wireframe {
+#wireframe,
+#colorScheme,
+#siteName {
     border: 1px solid black;
     padding: 1.5rem;
 }
