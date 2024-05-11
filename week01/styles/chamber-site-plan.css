@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #423e28;
+    --accent1-color: #86deb7;
+    --accent2-color: #adeee3;
+
+    --heading-font: "Poetsen One", sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #63b995;
+    --nav-link-color: #423e28;
+    --nav-hover-link-color: #adeee3;
+    --nav-hover-background-color: #adeee3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+}
+
+header {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    padding: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
+main {
+    padding: .5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+section {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+}
+
+#purpose {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+#scenarios,
+#typography,
+#wireframe {
+    border: 1px solid black;
+    padding: 1.5rem;
+}
