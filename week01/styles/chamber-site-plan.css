@@ -37,7 +37,7 @@ h2 {
 main {
     padding: .5rem;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 section {
@@ -45,16 +45,16 @@ section {
     background-color: var(--accent1-color);
 }
 
-#purpose {
-    border: 1px solid black;
-    padding: 1rem;
-}
-
-#scenarios,
+#purpose,
 #typography,
+#scenarios,
 #wireframe,
 #colorScheme,
 #siteName {
     border: 1px solid black;
     padding: 1.5rem;
+}
+
+ul {
+    padding-left: 1rem;
 }
