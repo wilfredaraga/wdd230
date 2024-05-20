@@ -50,6 +50,10 @@ header {
     color: white;
 }
 
+.darkMode a:visited {
+    color: #84f7ed;
+}
+
 #menu {
     display: block;
     font-size: 2rem;
@@ -136,8 +140,4 @@ footer {
     text-align: center;
     background-color: #003E1F;
 
-}
-
-.darkMode a:visited {
-    color: rgba(127, 251, 255, 0.842);
 }
