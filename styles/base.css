@@ -46,12 +46,17 @@ header {
 }
 
 .darkMode p,
-.darkMode li {
+.darkMode li,
+.darkMode a {
     color: white;
 }
 
 .darkMode a:visited {
     color: #84f7ed;
+}
+
+main a:visited {
+    color: blue;
 }
 
 #menu {
@@ -125,6 +130,10 @@ section {
     margin: 1rem 2vw;
     border-radius: 5px;
     overflow: hidden;
+}
+
+a {
+    color: #01110A;
 }
 
 section p {
