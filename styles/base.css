@@ -29,7 +29,6 @@ header {
     box-shadow: none;
     background-color: #D5F2E3;
     border-radius: 4px;
-
 }
 
 .darkMode {
@@ -109,6 +108,28 @@ nav {
     content: 'x';
 }
 
+.hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.herolabel {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 2rem #fff;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.herolabel p {
+    color: #000;
+}
+
 header,
 main,
 footer {
@@ -143,6 +164,13 @@ section p {
 section li {
     padding: 1rem;
     list-style: none;
+}
+
+iframe {
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 400px;
+    height: 350px;
 }
 
 footer {

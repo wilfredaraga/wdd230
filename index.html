@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://wilfredaraga.github.io/wdd230">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Wilfred Eiron Araga Profile" width="80" height="100">
+        <img src="images/profile.webp" alt="Wilfred Eiron Araga Profile" width="80" height="100">
         <span>Wilfred Eiron Araga</span>
         <img src="images/moon-sun-svgrepo-com.svg" alt="dark mode" id="mode">
     </header>
@@ -39,6 +39,16 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Rome Italy Temple">
+            </picture>
+            <div class="herolabel">
+                <p>Rome Italy Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -54,14 +64,17 @@
                         href="https://wilfredaraga.github.io/wdd230/week03/responsive-images.html">Responsive images</a>
                     • <a href="https://wilfredaraga.github.io/wdd230/week03/bom.html">localStorage Activity</a>
                 </li>
-
             </ul>
         </section>
         <section class="card">
             <h2>Information</h2>
             <p>Weather</p>
-            <p>Number of Visits</p>
+            <p>Number of Visits: <span class="visitDisplay"></span></p>
         </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61884.50590920038!2d120.95239162655221!3d14.20756140168784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5fead78983f%3A0x1ef1f6de9b810218!2sSilang%2C%20Cavite!5e0!3m2!1sen!2sph!4v1716500794173!5m2!1sen!2sph"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>&copy;<span id="year"></span> &bull; Wilfred Eiron Araga &bull; Philippines</p>

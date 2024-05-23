@@ -17,5 +17,18 @@ const modeButton = document.querySelector('#mode');
 const main = document.querySelector('main');
 
 modeButton.addEventListener('click', () => {
-    main.classList.toggle('darkMode')
+    main.classList.toggle('darkMode');
 })
+
+const visitDisplay = document.querySelector('.visitDisplay');
+
+let numVisit = Number(window.localStorage.getItem('numVisit-ls')) || 0;
+
+if (numVisit !== 0) {
+    visitDisplay.textContent = numVisit;
+} else {
+    visitDisplay.textContent = `This is your first visit.`;
+}
+
+numVisit++;
+localStorage.setItem('numVisit-ls', numVisit);
