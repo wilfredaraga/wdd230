@@ -172,9 +172,7 @@ h3 {
     opacity: 90%;
 }
 
-.event,
-.weather,
-.highlight section {
+section {
     border: 1px solid #000;
     margin: 1rem;
     padding: 1rem;
@@ -192,5 +190,28 @@ h3 {
 footer {
     text-align: center;
     background-color: var(--accent2-color);
-    padding: .5rem;
+    padding: 1rem;
+}
+
+.contentImages img {
+    border-radius: 20px 130px;
+}
+
+.contentImages img:hover {
+    box-shadow: 0 0 2rem #000;
+}
+
+.contentImages figcaption {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+
+figure {
+    padding: 1rem;
+}
+
+.sidebar img {
+    width: 400px;
+    height: auto;
 }

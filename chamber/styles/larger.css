@@ -86,4 +86,32 @@
         display: flex;
         justify-content: center;
     }
+
+    .discover {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+
+    .contentImages {
+        grid-column: 2/3;
+        margin: 1rem;
+    }
+
+    .contentImages figure {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .sidebar {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin: 2rem;
+    }
+
+    .sidebar section {
+        margin-bottom: 2rem;
+    }
 }

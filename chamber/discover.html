@@ -49,41 +49,54 @@
         </ul>
         <div class="contactUs"><button>Contact Us</button></div>
     </nav>
-    <main>
-        <div class="hero">
-            <img src="images/PDI.jpg" alt="hero">
-            <button>Join the Chamber</button>
-        </div>
-        <section class="event">
-            <h2>Events</h2>
-            <h3>Contract Signing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolores nobis nam cupiditate cum
-                nesciunt, molestias voluptatibus placeat facere officia minima minus tenetur sit neque laborum
-                consequatur quidem non adipisci.</p>
+    <main class="discover">
+        <section class="contentImages">
+            <figure>
+                <img src="images/picture1.webp" alt="Vegetable Farm in Silang" loading="lazy" width="500" height="350">
+                <figcaption>Vegetable Farm in Silang</figcaption>
+            </figure>
+            <figure>
+                <img src="images/picture2.webp" alt="Japanese Food" loading="lazy" width="500" height="300">
+                <figcaption>Japanese Food</figcaption>
+            </figure>
+            <figure>
+                <img src="images/picture3.webp" alt="Staycation in Silang" loading="lazy" width="500" height="300">
+                <figcaption>Staycation in Silang</figcaption>
+            </figure>
+            <figure>
+                <img src="images/picture4.webp" alt="Silang Municipal Hall" loading="lazy" width="500" height="400">
+                <figcaption>Silang Municipal Hall</figcaption>
+            </figure>
+            <figure>
+                <img src="images/picture5.webp" alt="Flower Farm in Silang" loading="lazy" width="500" height="250">
+                <figcaption>Flower Farm in Silang</figcaption>
+            </figure>
+            <figure>
+                <img src="images/picture6.webp" alt="Lot in Silang" loading="lazy" width="500" height="450">
+                <figcaption>Lot in Silang</figcaption>
+            </figure>
         </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <p><img src="images/sun.svg" alt="sunny" width="40"> 35℃ <strong>Sunny</strong>
-            </p>
-            <p>Humidity: 60%</p>
-            <p>Wind: 9km/h</p>
-        </section>
-        <div class="highlight">
-            <h2>Company Highlights</h2>
-            <div>
-                <section>
-                    <h3>Contract Signing with Pawnshop</h3>
-                    <img src="images/consigning.jpg" alt="Contract Signing" width="150">
-                </section>
-                <section>
-                    <h3>Ribbon Cutting with Potato Store</h3>
-                    <img src="images/ribboncutting.jpg" alt="Ribbon Cutting" width="150">
-                </section>
-                <section>
-                    <h3>Free Workshop</h3>
-                    <img src="images/workshop.jpg" alt="Free Workshop" width="150">
-                </section>
-            </div>
+        <div class="sidebar">
+            <section>
+                <h2>Events</h2>
+                <figure>
+                    <img src="images/Corporate Event.webp" alt="Corporate Event">
+                    <figcaption>Corporate Event</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Statistics Data</h2>
+                <img src="images/Statistics.webp" alt="Statistics Data">
+            </section>
+            <section class="calendar">
+                <h2>Month of May Calendar</h2>
+                <img src="images/Calendar.webp" alt="Month of May Calendar" width="300" height="160">
+            </section>
+            <section class="information">
+                <h2>Information</h2>
+                <p>Number of visits: <span class="visitDisplay"></span></p>
+                <p class="visitMessage"></p>
+            </section>
         </div>
     </main>
     <footer>
@@ -92,6 +105,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/index.js"></script>
+    <script src="scripts/localStorage.js"></script>
 </body>
 
 </html>
