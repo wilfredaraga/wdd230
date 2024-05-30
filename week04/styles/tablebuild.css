@@ -1,0 +1,34 @@
+* {
+    padding: .5rem
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    border-left: 1px solid #666666;
+}
+
+td {
+    border: 1px solid #666666;
+}
+
+tr:nth-child(2) {
+    background-color: #cccccc;
+}
+
+th {
+    background-color: #777;
+    color: white;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: .8rem;
+}
+
+th:first-child {
+    background-color: #000;
+}

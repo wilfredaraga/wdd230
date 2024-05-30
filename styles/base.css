@@ -50,6 +50,11 @@ header {
     color: white;
 }
 
+.darkMode a:visited:hover,
+.darkMode a:hover {
+    color: #D5F2E3;
+}
+
 .darkMode a:visited {
     color: #84f7ed;
 }
@@ -156,6 +161,11 @@ section {
 
 a {
     color: #01110A;
+}
+
+a:visited:hover,
+a:hover {
+    color: #003E1F;
 }
 
 section p {
