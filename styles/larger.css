@@ -72,6 +72,10 @@
         grid-template-columns: 70% 30%;
     }
 
+    .webForm {
+        grid-column: 1/3;
+    }
+
     section p {
         padding: 10px;
     }

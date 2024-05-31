@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilfred Eiron Araga - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development website for Wilfred Eiron Araga's course assignment portal.">
+    <meta name="author" content="Wilfred Eiron Araga">
+    <meta property="og:title" content="Course Assignment Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.nationalmuseum.gov.ph/wp-content/themes/yootheme/cache/c8/ChurchFrontFacade-1-c8ea6052.jpeg">
+    <meta property="og:url" content="https://wilfredaraga.github.io/wdd230">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Wilfred Eiron Araga Profile" width="80" height="100">
+        <span>Wilfred Eiron Araga</span>
+        <img src="images/moon-sun-svgrepo-com.svg" alt="dark mode" id="mode">
+    </header>
+
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="webForm">
+            <h1>Learning Activity Form</h1>
+            <div id="formMessage"></div>
+            <fieldset>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password" required
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </label>
+                <label>Re-enter Your Password* <input type="password" id="password2" name="password2" required>
+                </label>
+                <label>Email Address* <input type="email" id="email" name="email" required
+                        pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" placeholder="Please enter a valid email address"></label>
+                <label>Page Rating <div id="rangevalue">1</div><input type="range" id="rating" name="rating" min="1"
+                        max="10" value="1" step="1" list="rangeValues">
+                    <datalist id="rangeValues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+            </fieldset>
+            <input type="submit" value="Sign in">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> &bull; Wilfred Eiron Araga &bull; Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/repeatPass.js"></script>
+    <script src="scripts/rangeValue.js"></script>
+    <script src="scripts/links.js"></script>
+</body>
+
+</html>
