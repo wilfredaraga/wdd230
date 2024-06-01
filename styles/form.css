@@ -36,8 +36,7 @@
 
 .webForm input[type="text"],
 .webForm input[type="password"],
-.webForm input[type="email"],
-.webForm input[type="text"] {
+.webForm input[type="email"] {
     background-color: #eee;
     display: block;
     border: solid 1px #999;
