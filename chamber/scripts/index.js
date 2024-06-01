@@ -19,4 +19,3 @@ document.querySelector('#lastModified').innerHTML = `Last Modification: ${dateMo
 const timestamp = document.querySelector('#timestamp');
 
 timestamp.setAttribute('value', d);
-console.log(timestamp);
