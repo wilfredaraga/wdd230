@@ -242,7 +242,8 @@ label strong {
 .webForm input[type="text"],
 .webForm select,
 .webForm input[type="email"],
-.webForm input[type="tel"] {
+.webForm input[type="tel"],
+.webForm textarea {
     background-color: #eee;
     display: block;
     border: solid 1px #999;

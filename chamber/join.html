@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silang Chamber of Commerce Site Plan</title>
-    <meta name="description" content="Chamber Site Plan home page that promote businesses in Silang">
+    <title>Silang Chamber of Commerce Site Join Page</title>
+    <meta name="description"
+        content="Join in page of Silang Chamber of Commerce Site that promote businesses in Silang">
     <meta name="author" content="Wilfred Eiron Araga">
     <meta property="og:title" content="Silang Chamber of Commerce Site Plan">
     <meta property="og:type" content="website">
@@ -56,7 +57,7 @@
                 <label>First Name<strong>*</strong> <input type="text" id="fname" name="fname" required></label>
                 <label>Last Name<strong>*</strong> <input type="text" id="lname" name="lname" required></label>
                 <label>Title or Position <input type="text" id="position" name="position"
-                        pattern="[a-zA-Z-\s-]{7,}"></label>
+                        pattern="[a-zA-Z\-\s]{7,}"></label>
                 <label>Email Address<strong>*</strong> <input type="email" id="email" name="email" required
                         placeholder="someone@domain.com"></label>
                 <label>Mobile Phone Number<strong>*</strong> <input type="tel" id="phone" name="phone" required></label>
@@ -71,6 +72,8 @@
                         <option value="gold">Gold Membership</option>
                     </select>
                 </label>
+                <label>Business/Organization's Description <textarea name="description"
+                        id="description"></textarea></label>
                 <label>Timestamp <input type="hidden" id="timestamp" name="timestamp"></label>
             </fieldset>
             <input type="submit" value="Join Now">
