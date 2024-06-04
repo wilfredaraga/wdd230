@@ -3,7 +3,7 @@ const temp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weatherIcon');
 
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=14.2&lon=121&appid=3c4c5a6032c728bb30e825aa4fa46cf9&units=imperial'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=14.2&lon=121&appid=b228c9a53a08e7e9b5459764013776a8&units=imperial'
 
 async function apiFetch() {
     try {
