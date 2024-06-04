@@ -1,0 +1,33 @@
+{
+    "familyName": "Araga Family",
+    "dateMoved": "December 16, 2016",
+    "numberOfPeople": 5,
+    "visitedByBishop": true,
+    "nameFamilyMembers": [
+        {
+            "memberName": "Eiron",
+            "age": 16,
+            "birthDate": "May 19,2000"
+        },
+        {
+            "memberName": "Kobe",
+            "age": 11,
+            "birthDate": "August 13,2004"
+        },
+        {
+            "memberName": "Norie",
+            "age": 54,
+            "birthDate": "March 15,1962"
+        },
+        {
+            "memberName": "Agatha",
+            "age": 20,
+            "birthDate": "September 20,1997"
+        },
+        {
+            "memberName": "Perly",
+            "age": 50,
+            "birthDate": "July 11,1966"
+        }
+    ]
+}
