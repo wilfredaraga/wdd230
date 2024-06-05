@@ -8,6 +8,82 @@
                     "title": "Project Milestone - The Chamber of Commerce Site Plan"
                 }
             ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "chamber/index.html",
+                    "title": "The Chamber of Commerce Home Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load Activity"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images Activity"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "localStorage Activity"
+                },
+                {
+                    "url": "chamber/discover.html",
+                    "title": "The Chamber Discover Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "images/combinators.jpg",
+                    "title": "CSS Combinators Activity"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables for Data Presentation Activity"
+                },
+                {
+                    "url": "week04/Form-start/index.html",
+                    "title": "HTML Forms Activity"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form Build"
+                },
+                {
+                    "url": "chamber/join.html",
+                    "title": "The Chamber Join Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON Activity"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "The Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "OpenWeatherMap Activity"
+                }
+            ]
         }
     ]
 }
