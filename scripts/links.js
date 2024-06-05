@@ -11,16 +11,19 @@ async function getLinks() {
 getLinks();
 
 const activity = document.querySelector('#activity');
-function displayLinks(data) {
-    data.forEach((perWeek) => {
+const displayLinks = (weeks) => {
+    weeks.forEach((perWeek) => {
         const li = document.createElement('li');
-        li.textContent = `${perWeek.week}`;
+        li.textContent = `${perWeek.week}: `;
 
         perWeek.links.forEach((link) => {
             const a = document.createElement('a');
-            a.textContent = `${link.title}`;
-            a.setAttribute('href', link.url);
-            li.innerHTML = `${a} |`
+            const span = document.createElement('span');
+            span.textContent = ' |'
+            a.textContent = ` ${link.title}`;
+            a.setAttribute('href', `${baseURL}${link.url}`);
+            li.appendChild(a);
+            li.appendChild(span);
         })
 
         activity.appendChild(li);
