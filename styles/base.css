@@ -208,3 +208,14 @@ footer {
     background-color: var(--accent1-color);
 
 }
+
+.weather p {
+    background-color: var(--heading-color-font);
+    padding: 0;
+    margin: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

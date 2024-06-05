@@ -24,8 +24,9 @@ apiFetch();
 
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = 'https://openweathermap.org/img/w/04n.png'
+    const iconsrc = 'https://openweathermap.org/img/w/04n.png';
     captionDesc.textContent = `${data.weather[0].description}`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', weather.main);
+    captionDesc.textContent = `${data.weather[0].description}`;
 };
