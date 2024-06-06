@@ -5,11 +5,15 @@ const displayCompanies = document.querySelector('#displayCompanies');
 gridButton.addEventListener('click', () => {
     displayCompanies.classList.add('grid');
     displayCompanies.classList.remove('list');
+    gridButton.style.background = '#86deb7';
+    listButton.style.background = '#63b995';
 });
 
 listButton.addEventListener('click', () => {
     displayCompanies.classList.add('list');
     displayCompanies.classList.remove('grid');
+    gridButton.style.background = '#63b995';
+    listButton.style.background = '#86deb7';
 });
 
 const url = 'https://wilfredaraga.github.io/wdd230/chamber/data/member.json';
