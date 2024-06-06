@@ -3,7 +3,7 @@ const listButton = document.querySelector('#list');
 const displayCompanies = document.querySelector('#displayCompanies');
 
 
-
+const url = 'https://wilfredaraga.github.io/wdd230/chamber/data/member.json';
 async function getMembersGrid() {
     try {
         const response = await fetch(url);
@@ -20,7 +20,7 @@ async function getMembersGrid() {
         console.log(error);
     }
 }
-getMembers();
+getMembersGrid();
 
 function displayMember(data) {
     data.forEach((member) => {

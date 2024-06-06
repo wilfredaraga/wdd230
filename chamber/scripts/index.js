@@ -15,7 +15,3 @@ document.querySelector('#year').innerHTML = d.getFullYear();
 
 let dateModified = new Date(document.lastModified);
 document.querySelector('#lastModified').innerHTML = `Last Modification: ${dateModified}`;
-
-const timestamp = document.querySelector('#timestamp');
-
-timestamp.setAttribute('value', d);
