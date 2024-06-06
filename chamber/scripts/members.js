@@ -50,5 +50,7 @@ function displayMember(data) {
         section.appendChild(link);
         section.appendChild(memberLevelP);
         section.appendChild(employeeNum);
+
+        displayCompanies.appendChild(section);
     });
 }
