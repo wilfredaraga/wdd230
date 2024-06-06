@@ -82,6 +82,10 @@
                 {
                     "url": "week05/weather.html",
                     "title": "OpenWeatherMap Activity"
+                },
+                {
+                    "url": "chamber/directory.html",
+                    "title": "The Chamber Join Page"
                 }
             ]
         }
