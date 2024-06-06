@@ -2,9 +2,18 @@ const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
 const displayCompanies = document.querySelector('#displayCompanies');
 
+gridButton.addEventListener('click', () => {
+    displayCompanies.classList.add('grid');
+    displayCompanies.classList.remove('list');
+});
+
+listButton.addEventListener('click', () => {
+    displayCompanies.classList.add('list');
+    displayCompanies.classList.remove('grid');
+});
 
 const url = 'https://wilfredaraga.github.io/wdd230/chamber/data/member.json';
-async function getMembersGrid() {
+async function getMembers() {
     try {
         const response = await fetch(url);
         if (response.ok) {
@@ -20,7 +29,7 @@ async function getMembersGrid() {
         console.log(error);
     }
 }
-getMembersGrid();
+getMembers();
 
 function displayMember(data) {
     data.forEach((member) => {
