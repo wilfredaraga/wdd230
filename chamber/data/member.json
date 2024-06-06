@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Silang Fruitas",
+            "address": "846 Parklane Dr. Brgy. Poblacion 2 Silang, Cavite, Philippines",
+            "phoneNumber": "+639578462554",
+            "websiteURL": "https://fruitasholdings.com/",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/fruitas.webp",
+            "membershipLevel": "Bronze Member",
+            "otherInformation": "10 employees"
+        },
+        {
+            "name": "Paresilog",
+            "address": "654 Purok 3 Brgy. Litlit, Silang, Cavite Philippines",
+            "phoneNumber": "+635457895426",
+            "websiteURL": "https://paresilog.com",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/paresilog.webp",
+            "membershipLevel": "Gold Member",
+            "otherInformation": "8 employees"
+        },
+        {
+            "name": "Veggies Everyday",
+            "address": "152 Ruby St. Brgy. Tubuan 2, Silang, Cavite Philippines",
+            "phoneNumber": "+635468781554",
+            "websiteURL": "https://veggies.com",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/veggies.webp",
+            "membershipLevel": "Silver Member",
+            "otherInformation": "9 employees"
+        },
+        {
+            "name": "Camella Homes",
+            "address": "Brgy. Adlas, Silang, Cavite",
+            "phoneNumber": "+639190820632",
+            "websiteURL": "https://www.camella.com.ph/",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/camella.webp",
+            "membershipLevel": "Gold Member",
+            "otherInformation": "15 employees"
+        },
+        {
+            "name": "Fresh Options Meatshop",
+            "address": "4854 Pizza Lane, Brgy. Kalubkob, Silang, Cavite Philippines",
+            "phoneNumber": "+634548762448",
+            "websiteURL": "https://freshoptions.ph/",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/freshoption.webp",
+            "membershipLevel": "Silver Member",
+            "otherInformation": "10 employees"
+        },
+        {
+            "name": "Starbucks",
+            "address": "410 Silang - Aguinaldo Highway Brgy. Tubuan 1, Silang, Cavite Philippines",
+            "phoneNumber": "+634578481235",
+            "websiteURL": "https://www.starbucks.com/",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/",
+            "membershipLevel": "Gold Member",
+            "otherInformation": "16 employees"
+        },
+        {
+            "name": "Acienda Designer Outlet",
+            "address": "Unit 74 Km. 48, Aguinaldo Hwy Brgy. Balubad, Silang, Cavite Philippines",
+            "phoneNumber": "+634587243010",
+            "websiteURL": "https://www.aciendadesigneroutlet.com/",
+            "image": "https://wilfredaraga.github.io/wdd230/chamber/images/acienda.webp",
+            "membershipLevel": "Gold Member",
+            "otherInformation": "30 employees"
+        }
+    ]
+}
